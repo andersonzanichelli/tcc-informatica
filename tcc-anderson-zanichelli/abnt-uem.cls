@@ -34,7 +34,7 @@
 \PassOptionsToPackage{hyperindex=false}{hyperref}
 \PassOptionsToPackage{paginas=nao,esquema=misto,caixa=mista,lista=unica,ordem=alf}{tabela-simbolos}
 
-\input{abntex/abnt.cls}
+\input{abnt.cls}
 % \LoadClass{abnt}
 
 
