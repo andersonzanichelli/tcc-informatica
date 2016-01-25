@@ -17,8 +17,61 @@ As redes Wi-Fi fazem o uso das ondas de rádio para transmitir informações e o
 Como as redes Wireless funcionam recebendo e emitindo sinais, os dados recebidos da Internet são codificados em sinais de rádio pelo roteador e recebidos pelo adaptador do dispositivo conectado.
 Os pontos de acesso às redes Wi-Fi podem ser públicas, como por exemplo nos aeroportos e restaurantes ou fechadas, como nos locais de trabalho e nas casas.
 
-Para bloquear esse acesso às redes Wi-Fi são utilizadas diversas tecnicas de autenticação com protocolos de criptografia como por exemplo: 
-\subsection{3G e 4G}
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.6\textwidth]{wlan.png} % <- formatos PNG, JPG e PDF
+	\caption[Exemplo da organização de uma WLAN]{Exemplo da organização de uma WLAN.}
+	\label{fig:wlan}
+\end{figure}
+
+Pelo fato de não ser necessário ter acesso físico aos pontos de acesso, qualquer dispositivo com adaptador wireless poderia ter acesso à Internet através de qualquer roteador Wi-Fi que estivesse no seu alcance. Para bloquear esse acesso às redes Wi-Fi são utilizadas diversas tecnicas de autenticação com protocolos de criptografia como por exemplo:
+\begin{itemize}
+  \item \sigla{WEP}{Wired Equivalent Privacy}
+  - É um algorítmo de segurança que foi introduzido originalmente como parte do protocolo 802.11 que garantiria a confidencialidade dos dados na rede Wi-Fi, mas infelizmente era um algorítmo fácil de quebrar, assim no ano de 2003 a \sigla{Wi-Fi Alliance}{Uma associação da indústria global sem fins lucrativos} \footnote{wi-fi.org/who-we-are} declarou que o WEP havia sido superado pelo WPA.
+  \item \sigla{WPA}{Wi-Fi Protected Access}
+  - O WPA e o \sigla{WPA2}{Wi-Fi Protected Access II} são dois protocolos de segurança e programas de certificação de segurança desenvolvidos pela \textit{Wi-Fi Alliance} para proteger redes de computadores sem fio. Foram desenvolvidos em resposta às graves deficiências encontradas por pesquisadores no sistema anterior, o WEP.
+  \item \sigla{WPS}{Wi-Fi Protected Setup}
+  - Criado pela \textit{Wi-Fi Alliance} e introduzido em 2006, o objetivo deste protocolo é permitir que os usuários domésticos
+  possam adicionar novos dispositivos na rede Wi-Fi segura sem a necessidade de entender de protocolos de segurança e sem precisar digitar senhas longas nos dispositivos.
+\end{itemize}
+
+\subsection{Telefonia móvel}
+A primeira geração de telefones celulares foi lançada na década de 80 e utilizavam o sinal analógico. Eram aparelhos grandes, pouco práticos e inconvinientes para serem carregados pelas pessoas.
+
+Na década de 90 eles foram substituídos pela segunda geração. Os dispositivos móveis passaram a utilizar um sinal digital mais confiável que permitiu o uso de mensagens de texto, ou \sigla{SMS}{Short Message Service}. No entanto, a tecnologia ainda não estava robusta ou rápida o suficiente para lidar com os milhares, e depois milhões, de consumidores que queriam usar telefones celulares. Houve também uma demanda crescente para a transmissão de dados através dos celulares.
+
+A tecnologia 2G não era rápida e confiável o suficiente. Então foi desenvolvida uma tecnologia intermediária, chamada de EDGE ou 2.5G, mas foi com a adoção do 3G que se alcançou rapidez e confiabilidade adequadas para o uso da Internet nos dispositivos móveis.
+\begin{citacao}
+A tecnologia UMTS (Universal Mobile Telecommunications System), mais conhecida como 3G\footnote{O nome de mercado da tecnologia UMTS está associado a 3G para enfatizar uma evolução das gerações de tecnologias de telefonia celular (1G, 2G, 2.5G); é também conhecida como 3GSM para enfatizar sua estreita ligação com a tecnologia GSM}, foi especificada pelo grupo 3GPP\footnote{O projeto 3GPP é uma iniciativa global com o escopo original de desenvolver especificações e relatórios técnicos para sistemas de Terceira Geração que evoluíssem de redes GSM. Atualmente, o projeto inclui também as tecnologias de acesso GSM/GPRS. Página Web do projeto: 3gpp.org/}
+
+UMTS provê serviços de alta transmissão de dados para redes de dados sem fio e telefonia móvel. Essa tecnologia mantém características da segunda geração GSM para telefonia móvel e \sigla{GPRS}{General Packet Radio Service} para redes de dados sem fio. As novas capacidades incluem envio e recebimento de fotos, gráficos e vídeos, além de serviços de voz e dados. (VANNI, 2009)
+\end{citacao}
+
+No Brasil estamos vivendo o momento da implantação da tecnologia 4G \sigla{LTE}{Long Term Evolution}, uma evolução do 3G que promete velocidades até 10 vezes mais rápida.
+
+\begin{citacao}
+Um dos requisitos do LTE é fornecer taxas de pico downlink de pelo menos 100Mbit/s. A tecnologia permite velocidades acima de 200Mbit/s e a Ericsson já demonstrou taxas acima de 150Mbit/s. Além disso, a latência  deverá ser inferior a 10ms. Efetivamente, isso significa que o LTE – mais do que qualquer outra tecnologia – já atende aos principais requisitos de 4G. (Teleco Inteligência em Telecomunicações\footnote{teleco.com.br/tutoriais/tutoriallte})
+\end{citacao}
+
+\begin{table}[!htb]
+	\tiny
+  	\centering
+	\label{tab:LTE}
+	\begin{tabular}{|l|*{8}{c|}}
+		\hline \SPACE
+		Geração & \multicolumn{3}{|c|}{2G}  & \multicolumn{4}{|c|}{3G}  & 4G\\ \hline \SPACE
+		Tecnologia & GSM & GPRS & EDGE & WCDMA & HSPA & HSPA+ & LTE & LTE-Advanced\\ \hline \SPACE
+		Downlink & 14,4 Kbps & 171,2 Kbps & 473,6 Kbps & 2,0 Mbps & 7,2/14,4 Mbps & 21/42 Mbps & 100Mbps & 1,0 Gbps\\ \hline \SPACE
+		Uplink & - & - & 473,6 Kbps & 474 Kbps & 5,76 Mbps & 7,2/11,5 Mbps & 50 Mbps & 0,5 Gbps\\ \hline \SPACE
+		Média teórica & 10-40 kbit/s & 40-50 kbit/s & 100-130 kbit/s & 128-384 kbit/s & 1-10 Mbps & - & - & -\\ \hline \SPACE
+		Canalização (MHz) & 0,2 & 0,2 & 0,2 & 5 & 5 & 5 & 20 & 100\\ \hline \SPACE
+		Latência (ms) & 500 & 500 & 300 & 250 & ~70 & ~30 & ~10 & <5\\ \hline
+	\end{tabular}
+	\caption[Evolução da Tecnologia GSM -> LTE-Advanced]{Evolução da Tecnologia GSM -> LTE-Advanced}
+\end{table}\vspace{3.3cm}
+\begin{center}
+\small{Fonte: 4gamericas\footnote{4gamericas.org/pt-br/resources/technology-education/3gpp-technology-evolution}}
+\end{center}
 
 \section{Sistemas operacionais}
 Atualmente existem muitas empresas colocando dispositivos móveis no mercado, cada uma delas opta por um dos sistemas operacionais diponíveis.
@@ -26,24 +79,24 @@ Existem sistemas operacionais livres e outros de código fechado, alguns são ut
 
 \subsection{Android}
 O Android foi desenvolvido pela Google Inc. É um \sigla{SO}{Sistema operacional} construído sobre um kernel Linux e é o SO mais utilizado no mundo nos dispositivos móveis. Ele é de uso geral e além dos dispositivos móveis pode ser utilizado em tablets, TVs, smartwatches e até desktops. Por ser um SO Livre e de Código Aberto muitas empresas o escolhem e o modificam para ser o sistema de seus produtos.
-
 \begin{citacao}
-Android é um sistema de software de código aberto criado para uma grande variedade de dispositivos. Os objetivos primordiais do Android são a criação de uma plataforma de software aberto disponível para operadoras, OEMs e desenvolvedores para que tornem as suas ideias inovadoras em realidade e que melhorem as experiências dos usuários. (About Android)\footnote{https://source.android.com/source/index.html}
+Android é um sistema de software de código aberto criado para uma grande variedade de dispositivos. Os objetivos primordiais do Android são a criação de uma plataforma de software aberto disponível para operadoras, OEMs e desenvolvedores para que tornem as suas ideias inovadoras em realidade e que melhorem as experiências dos usuários. (About Android)\footnote{Tradução livre do texto: source.android.com/source/index.html}
 \end{citacao}
 
 \subsection{iOS}
 O \sigla{iOS}{iPhone OS} é um sistema derivado do Darwin core OS é o SO utilizado nos dispositivos móveis da Apple Inc., o iPhone. O iOS tem a segunda maior base instalada em dispositivos moveis. É um sistema de código proprietário e de código fechado.
-
 \begin{citacao}
-Como a Apple cria tanto o hardware e o sistema operacional para iPad, iPhone e iPod touch, tudo é projetado para trabalhar em conjunto. Assim, os aplicativos tiram o máximo proveito dos recursos de hardware, como o processador dual-core, aceleração gráfica, as antenas wireless, e muito mais. (About iOS)\footnote{http://www.apple.com/ios/what-is/}
+Como a Apple cria tanto o hardware e o sistema operacional para iPad, iPhone e iPod touch, tudo é projetado para trabalhar em conjunto. Assim, os aplicativos tiram o máximo proveito dos recursos de hardware, como o processador dual-core, aceleração gráfica, as antenas wireless, e muito mais. (About iOS)\footnote{Tradução livre do texto: apple.com/ios/what-is/}
 \end{citacao}
 
-\subsection{Windows Phone}
-O Windows Phone é o SO da Microsoft para dispositivos móveis. É o terceiro SO mais utilizado em dispositivos móveis. É de código proprietário e de código fechado.
+\subsection{Windows 10 Mobile}
+O Windows 10 Mobile é o SO da Microsoft para dispositivos móveis. É o terceiro SO mais utilizado em dispositivos móveis. É de código proprietário e de código fechado.
+\begin{citacao}
+Windows 10 Mobile é a primeira tentativa da Microsoft para unificar seus sistemas de desktop, tablet e telefone em um único sistema operacional. A versão para dispositivos móveis dispõe de muitos dos mesmos recursos que sua versão para desktop, incluindo o mesmo kernel, elementos da interface, menus e configurações. (Windows Central)\footnote{Tradução livre do texto: windowscentral.com/windows-10-mobile}
+\end{citacao}
 
 \begin{table}[!htb]
 	\centering
-	\caption[Sistemas operacionais mais utilizados]{Vendas no mundo de Smartphones para usuários finais por sistema operacional em 2015 (Milhares de Unidades)}
 	\label{tab:OS}
 	\begin{tabular}{c|c|c|c|c}
 		\hline \SPACE
@@ -56,6 +109,9 @@ O Windows Phone é o SO da Microsoft para dispositivos móveis. É o terceiro SO
 		Total & 329.676,4 & 100,0 & 290.384,4 & 100,0\\
 		\hline
 	\end{tabular}
+	\caption[Sistemas operacionais mais utilizados]{Vendas no mundo de Smartphones para usuários finais por sistema operacional em 2015 (Milhares de Unidades)}
 \end{table}\vspace{-1cm}
-\begin{center}\small{Fonte: Gartner, Agosto 2015\footnote{http://www.gartner.com/newsroom/id/3115517}}
+\begin{center}
+	\small
+	{Fonte: Gartner, Agosto 2015\footnote{gartner.com/newsroom/id/3115517 Acesso: Dezembro/2015}}
 \end{center}
