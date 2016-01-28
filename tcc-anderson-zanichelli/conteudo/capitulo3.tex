@@ -1,44 +1,119 @@
 %---------- Terceiro Capitulo ----------
-\chapter{Ferramentas de desenvolvimento}
-As organizações existentes que desenvolvem estes dispositivos, como por exemplo, a Google, a Apple e Microsoft, cada uma com sua plataforma, Android, iOS e Windows, respectivamente, oferecem aos desenvolvedores ferramentas e ambientes de desenvolvimento ricos em bibliotecas que fornecem suporte e facilidades no desenvolvimento de aplicativos.
+\chapter{Visão geral da área}
 
-Essas empresas também mantêm sites voltados aos desenvolvedores com documentos e informações sobre como utilizar as bibliotecas e as ferramentas para o desenvolvimento de aplicativos.
+As inovações e evoluções em hardware e software dos dispositivos móveis têm atraído atenção de diversos tipos de pessoas, desde usuários leigos que utilizam poucas funcionalidades desses aparelhos aos pesquisadores que utilizam e se beneficiam da mobilidade e da robustez desses novos dispositivos em parte de seus projetos.
 
-\section{Linguagens de Programação e Frameworks de Desenvolvimento}
-Além desses ambientes de desenvolvimento disponibilizados pelas empresas, outras organizações também desenvolvem tecnologias que apoiam a criação de aplicativos para essas platafomas como por exemplo as empresas Appcelerator e Apache. A Appcelerator disponibiliza um ambiente de desenvolvimento completo com IDE, plugins e bibliotecas conhecido como Titanium IDE, já a Apache disponibiliza ao desenvolvedores uma plataforma para criar aplicativos utilizando as tecnologias Javascript, HTML e CSS chamada Cordova.
+\section{Conectividade}
+Os dispositivos móveis encontrados no mercado possibilitam que o usuário possam conectá-lo à Internet de alguma forma, sempre utilizando alguma tecnologia de comunicação sem fio, sendo que as mais comuns são as redes locais sem fio \sigla{WLAN}{Wireless Local Area Network} e as redes de telefonia móvel (Celular).
+\subsection{WLAN}
+Ultimamente o uso da tecnologia de conexão à rede sem fios espalhou-se por todos os lugares, em casa, na universidade, no trabalho, nos aeroportos, hoteis, até em alguns restaurantes.
+As redes \textit{Wireless} são conhecidas como redes Wi-Fi, elas abrangem as tecnologias 802.11 do padrão \sigla{IEEE}{Institute of Electrical and Electronics Engineers}.
+\begin{citacao}
+Wi-Fi é o nome associado à família do padrão IEEE 802.11\footnote{ieee802.org/11/index.shtml}. Assim como o
+padrão 802.15, esse padrão opera em faixas de freqüências que não necessitam de licença para instalação e operação. Suas faixas de freqüência são 2,4GHz, 3,6GHz e 5GHz. As aplicações do padrão 802.11 diferem do padrão 802.15 quanto à utilização da rede e a mobilidade do usuário. Wi-Fi oferece alta potência de transmissão e cobre distâncias maiores, oferecendo redes sem fio locais (WLAN). (VANNI, 2009)
+\end{citacao}
+Uma das maiores vantagens das redes Wi-Fi é a sua compatibilidade com praticamente todos os sistemas operacionais, incluíndo dipositivos como impressoras e video-games.
 
-Várias outras organizações utilizam o Apache Cordova como núcleo em seus frameworks para o desenvolvimento de aplicativos para dispositivo móveis, como é o caso do Adobe PhoneGap, Intel XDK e Ionic Framework
+As redes Wi-Fi fazem o uso das ondas de rádio para transmitir informações e os dispositivos devem ter um adaptador que traduzem os dados em sinais de rádio. Esses sinais são transmitidos através de uma antena para um decodificador conhecido como roteador, que decodifica os sinais e envia os dados para a Internet através de uma conexão com fios à rede \sigla{LAN}{Local Area Network}.
 
-A implementação do aplicativo para dispositivo móvel utilizou o Ionic Framework. Como ele utiliza o Apache Cordova, a aplicação foi desenvolvida com o uso das Linguagens Javascript, HTMLe CSS.
+Como as redes Wireless funcionam recebendo e emitindo sinais, os dados recebidos da Internet são codificados em sinais de rádio pelo roteador e recebidos pelo adaptador do dispositivo conectado.
+Os pontos de acesso às redes Wi-Fi podem ser públicas, como por exemplo nos aeroportos e restaurantes ou fechadas, como nos locais de trabalho e nas casas.
 
 \begin{figure}[!htb]
 	\centering
-	\includegraphics[width=1\textwidth]{javascript-st.png} % <- formatos PNG, JPG e PDF
-	\caption[Linguagens com maior número de repositórios ativos no GitHub]{Gráfico sobre as linguagens com repositórios ativos no GitHub}
-	\label{fig:javascript}
+	\includegraphics[width=0.5\textwidth]{wlan.png} % <- formatos PNG, JPG e PDF
+	\caption[Exemplo da organização de uma WLAN]{Exemplo da organização de uma WLAN.}
+	\label{fig:wlan}
 \end{figure}
 
-Javascript é a linguagem com o maior número de repositórios ativos no GitHub. Com esse grande número de repositórios, a linguagem Javascript se torna uma opção muito atrativa na escolha como linguagem principal no desenvolvimento de aplicativos, pois existem muitas pessoas utilizando a linguagem e isso faz com que seja fácil de encontrar exemplos de uso de código, existe a facilidade na obtenção de respostas de dúvidas em foruns de discussão, e também acontece o aumento na quantidade de bibliotecas utéis que podem ser utilizadas em diversos tipos de projetos.
+Pelo fato de não ser necessário ter acesso físico aos pontos de acesso, qualquer dispositivo com adaptador wireless poderia ter acesso à Internet através de qualquer roteador Wi-Fi que estivesse no seu alcance. Para bloquear esse acesso às redes Wi-Fi são utilizadas diversas tecnicas de autenticação com protocolos de criptografia como por exemplo:
+\begin{itemize}
+  \item \sigla{WEP}{Wired Equivalent Privacy}
+  - É um algorítmo de segurança que foi introduzido originalmente como parte do protocolo 802.11 que garantiria a confidencialidade dos dados na rede Wi-Fi, mas infelizmente era um algorítmo fácil de quebrar, assim no ano de 2003 a \sigla{Wi-Fi Alliance}{Uma associação da indústria global sem fins lucrativos} \footnote{wi-fi.org/who-we-are} declarou que o WEP havia sido superado pelo WPA.
+  \item \sigla{WPA}{Wi-Fi Protected Access}
+  - O WPA e o \sigla{WPA2}{Wi-Fi Protected Access II} são dois protocolos de segurança e programas de certificação de segurança desenvolvidos pela \textit{Wi-Fi Alliance} para proteger redes de computadores sem fio. Foram desenvolvidos em resposta às graves deficiências encontradas por pesquisadores no sistema anterior, o WEP.
+  \item \sigla{WPS}{Wi-Fi Protected Setup}
+  - Criado pela \textit{Wi-Fi Alliance} e introduzido em 2006, o objetivo deste protocolo é permitir que os usuários domésticos
+  possam adicionar novos dispositivos na rede Wi-Fi segura sem a necessidade de entender de protocolos de segurança e sem precisar digitar senhas longas nos dispositivos.
+\end{itemize}
 
-Javascript está se tornando muito popular também como linguagem de backend, com o Node.Js.
+\subsection{Telefonia móvel}
+A primeira geração de telefones celulares foi lançada na década de 80 e utilizavam o sinal analógico. Eram aparelhos grandes, pouco práticos e inconvinientes para serem carregados pelas pessoas.
+
+Na década de 90 eles foram substituídos pela segunda geração. Os dispositivos móveis passaram a utilizar um sinal digital mais confiável que permitiu o uso de mensagens de texto, ou \sigla{SMS}{Short Message Service}. No entanto, a tecnologia ainda não estava robusta ou rápida o suficiente para lidar com os milhares, e depois milhões, de consumidores que queriam usar telefones celulares. Houve também uma demanda crescente para a transmissão de dados através dos celulares.
+
+A tecnologia 2G não era rápida e confiável o suficiente. Então foi desenvolvida uma tecnologia intermediária, chamada de EDGE ou 2.5G, mas foi com a adoção do 3G que se alcançou rapidez e confiabilidade adequadas para o uso da Internet nos dispositivos móveis.
 \begin{citacao}
-Como um framework assíncrono dirigido a eventos, Node.js foi desenhado para contruir aplicações de rede escaláveis. No exemplo a seguir, muitas conexões podem ser manipuladas concorrentemente. A cada conexão uma chamada é disparada, mas se nenhuma requisição é feita o Node dorme. (About Node.js\footnote{nodejs.org/en/about/})
+A tecnologia UMTS (Universal Mobile Telecommunications System), mais conhecida como 3G\footnote{O nome de mercado da tecnologia UMTS está associado a 3G para enfatizar uma evolução das gerações de tecnologias de telefonia celular (1G, 2G, 2.5G); é também conhecida como 3GSM para enfatizar sua estreita ligação com a tecnologia GSM}, foi especificada pelo grupo 3GPP\footnote{O projeto 3GPP é uma iniciativa global com o escopo original de desenvolver especificações e relatórios técnicos para sistemas de Terceira Geração que evoluíssem de redes GSM. Atualmente, o projeto inclui também as tecnologias de acesso GSM/GPRS. Página Web do projeto: 3gpp.org/}
 
-\begin{verbatim}
-  const http = require('http');
-  const hostname = '127.0.0.1';
-  const port = 1337;
-
-  http.createServer((req, res) => {
-    res.writeHead(200, { 'Content-Type': 'text/plain' });
-    res.end('Hello World\n');
-  }).listen(port, hostname, () => {
-    console.log(`Running at http://${hostname}:${port}/`);
-  });
-\end{verbatim}
+UMTS provê serviços de alta transmissão de dados para redes de dados sem fio e telefonia móvel. Essa tecnologia mantém características da segunda geração GSM para telefonia móvel e \sigla{GPRS}{General Packet Radio Service} para redes de dados sem fio. As novas capacidades incluem envio e recebimento de fotos, gráficos e vídeos, além de serviços de voz e dados. (VANNI, 2009)
 \end{citacao}
 
-O Javascript pode ser encontrado até como linguagem auxiliar para manipulação de dados em Banco de Dados, como é o caso do MongoDB, um banco de dados orientado a documentos que utiliza o \sigla{JSON}{JavaScript Object Notation} como estrutura de dados.
+No Brasil estamos vivendo o momento da implantação da tecnologia 4G \sigla{LTE}{Long Term Evolution}, uma evolução do 3G que promete velocidades até 10 vezes mais rápida.
+
 \begin{citacao}
-MongoDB faz com que trabalhar com banco de dados seja simples e elegante. Ele utiliza um modelo de dados JSON que é mapeado para a sua aplicação, e possui esquemas dinâmicos que permitem uma iteração muito rápida. Tem bibliotecas para a linguagem que você utiliza para codificar. E ele tem uma linguagem de consulta expressiva que lhe permite buscar, ordenar, agregar dados sem a necessidade de escrever código extra. Ele ainda é mais fácil de implantar, provisionar e escalar. (What is MongDB)\footnote{mongodb.com/what-is-mongodb}
+Um dos requisitos do LTE é fornecer taxas de pico downlink de pelo menos 100Mbit/s. A tecnologia permite velocidades acima de 200Mbit/s e a Ericsson já demonstrou taxas acima de 150Mbit/s. Além disso, a latência  deverá ser inferior a 10ms. Efetivamente, isso significa que o LTE – mais do que qualquer outra tecnologia – já atende aos principais requisitos de 4G. (Teleco Inteligência em Telecomunicações\footnote{teleco.com.br/tutoriais/tutoriallte})
 \end{citacao}
+
+\begin{table}[!htb]
+	\tiny
+  	%\centering
+	\label{tab:LTE}
+	\begin{tabular}{|l|*{8}{c|}}
+		\hline \SPACE
+		Geração & \multicolumn{3}{|c|}{2G}  & \multicolumn{4}{|c|}{3G}  & 4G\\ \hline \SPACE
+		Tecnologia & GSM & GPRS & EDGE & WCDMA & HSPA & HSPA+ & LTE & LTE-Advanced\\ \hline \SPACE
+		Downlink & 14,4 Kbps & 171,2 Kbps & 473,6 Kbps & 2,0 Mbps & 7,2/14,4 Mbps & 21/42 Mbps & 100Mbps & 1,0 Gbps\\ \hline \SPACE
+		Uplink & - & - & 473,6 Kbps & 474 Kbps & 5,76 Mbps & 7,2/11,5 Mbps & 50 Mbps & 0,5 Gbps\\ \hline \SPACE
+		Média teórica & 10-40 kbit/s & 40-50 kbit/s & 100-130 kbit/s & 128-384 kbit/s & 1-10 Mbps & - & - & -\\ \hline \SPACE
+		Canalização (MHz) & 0,2 & 0,2 & 0,2 & 5 & 5 & 5 & 20 & 100\\ \hline \SPACE
+		Latência (ms) & 500 & 500 & 300 & 250 & ~70 & ~30 & ~10 & <5\\ \hline
+	\end{tabular}
+	\caption[Evolução da Tecnologia GSM -> LTE-Advanced]{Evolução da Tecnologia GSM -> LTE-Advanced}
+\end{table}%\vspace{4cm}
+\begin{center}
+\small{Fonte: 4gamericas\footnote{4gamericas.org/pt-br/resources/technology-education/3gpp-technology-evolution}}
+\end{center}
+
+\section{Sistemas operacionais}
+Atualmente existem muitas empresas colocando dispositivos móveis no mercado, cada uma delas opta por um dos sistemas operacionais diponíveis.
+Existem sistemas operacionais livres e outros de código fechado, alguns são utilizados apenas em dispositivos da própria fabricante, como no caso do IOS da Apple que é utilizado apenas nos iPhones.
+
+\subsection{Android}
+O Android foi desenvolvido pela Google Inc. É um \sigla{SO}{Sistema operacional} construído sobre um kernel Linux e é o SO mais utilizado no mundo nos dispositivos móveis. Ele é de uso geral e além dos dispositivos móveis pode ser utilizado em tablets, TVs, smartwatches e até desktops. Por ser um SO Livre e de Código Aberto muitas empresas o escolhem e o modificam para ser o sistema de seus produtos.
+\begin{citacao}
+Android é um sistema de software de código aberto criado para uma grande variedade de dispositivos. Os objetivos primordiais do Android são a criação de uma plataforma de software aberto disponível para operadoras, OEMs e desenvolvedores para que tornem as suas ideias inovadoras em realidade e que melhorem as experiências dos usuários. (About Android)\footnote{Tradução livre do texto: source.android.com/source/index.html}
+\end{citacao}
+
+\subsection{iOS}
+O \sigla{iOS}{iPhone OS} é um sistema derivado do Darwin core OS é o SO utilizado nos dispositivos móveis da Apple Inc., o iPhone. O iOS tem a segunda maior base instalada em dispositivos moveis. É um sistema de código proprietário e de código fechado.
+\begin{citacao}
+Como a Apple cria tanto o hardware e o sistema operacional para iPad, iPhone e iPod touch, tudo é projetado para trabalhar em conjunto. Assim, os aplicativos tiram o máximo proveito dos recursos de hardware, como o processador dual-core, aceleração gráfica, as antenas wireless, e muito mais. (About iOS)\footnote{Tradução livre do texto: apple.com/ios/what-is/}
+\end{citacao}
+
+\subsection{Windows 10 Mobile}
+O Windows 10 Mobile é o SO da Microsoft para dispositivos móveis. É o terceiro SO mais utilizado em dispositivos móveis. É de código proprietário e de código fechado.
+\begin{citacao}
+Windows 10 Mobile é a primeira tentativa da Microsoft para unificar seus sistemas de desktop, tablet e telefone em um único sistema operacional. A versão para dispositivos móveis dispõe de muitos dos mesmos recursos que sua versão para desktop, incluindo o mesmo kernel, elementos da interface, menus e configurações. (Windows Central)\footnote{Tradução livre do texto: windowscentral.com/windows-10-mobile}
+\end{citacao}
+
+\begin{table}[!htb]
+	%\centering
+	\label{tab:OS}
+	\begin{tabular}{c|c|c|c|c}
+		\hline \SPACE
+		\textbf{OS} & \textbf{2015 (Un)}  & \textbf{2015 Market Share(\%)}  & \textbf{2014 (Un)}  & \textbf{2014 Market Share(\%)} \\ \hline \SPACE
+		Android & 271.010 & 82,2 & 243.484 & 83,8\\ \hline \SPACE
+		iOS & 48.086 & 14,6 & 35.345 & 12,2\\ \hline \SPACE
+		Windows Phone & 8.198 & 2,5 & 8.095 & 2,8\\ \hline \SPACE
+		BlackBerry & 1.153 & 0,3 & 2.044 & 0,7\\ \hline \SPACE
+		Others & 1.229 & 0,4 & 1.416,8 & 0,5\\ \hline \SPACE
+		Total & 329.676,4 & 100,0 & 290.384,4 & 100,0\\
+		\hline
+	\end{tabular}
+	\caption[Sistemas operacionais mais utilizados]{Vendas no mundo de Smartphones para usuários finais por sistema operacional em 2015 (Milhares de Unidades)}
+\end{table}%\vspace{-1cm}
+\begin{center}
+	\small
+	{Fonte: Gartner, Agosto 2015\footnote{gartner.com/newsroom/id/3115517 Acesso: Dezembro/2015}}
+\end{center}

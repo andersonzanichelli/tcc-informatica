@@ -14,15 +14,18 @@
 \usepackage[utf8]{inputenc}
 \usepackage[brazil]{babel}
 \usepackage[pdftex]{graphicx}
+\usepackage{caption}
+\usepackage[font=small,labelfont=bf]{caption}
 \usepackage{longtable}
 \usepackage{float} % para as figuras ficarem onde foram colocadas no latex - deve colcoar na figura [H]
+\usepackage{enumerate}
 \graphicspath{{./figuras/}} % Diretório padrão de figuras.
 \input{pretextuais/capa} % Elementos da capa
 \begin{document}
     \pagestyle{empty}
     \DeclareGraphicsExtensions{.jpg,.pdf,.mps,.png,.bmp,.eps}
-    %\capa % geração automática da capa
-    %\folhaderosto % geração automática da folha de rosto
+    \capa % geração automática da capa
+    \folhaderosto % geração automática da folha de rosto
     \input{pretextuais/dedicatoria}
     \input{pretextuais/agradecimentos}
     \input{pretextuais/resumo}
