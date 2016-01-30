@@ -5,4 +5,6 @@ tcc.lsb
 tcc.lsg
 tcc.toc
 tcc.pdf
+tcc.bbl
+tcc.blg
 *.log

@@ -12,6 +12,8 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: abnt-options.bib
 Database file #2: tcc.bib
+Warning--entry type for "Cert2016" isn't style-file defined
+--line 25 of file tcc.bib
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
@@ -23,44 +25,45 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de duvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 4 entries,
+You've used 6 entries,
             6523 wiz_defined-function locations,
-            1178 strings with 9552 characters,
-and the built_in function-call counts, 2486 in all, are:
-= -- 308
-> -- 30
+            1188 strings with 9769 characters,
+and the built_in function-call counts, 3548 in all, are:
+= -- 365
+> -- 60
 < -- 0
-+ -- 54
-- -- 10
-* -- 119
-:= -- 377
-add.period$ -- 8
-call.type$ -- 5
-change.case$ -- 18
-chr.to.int$ -- 3
-cite$ -- 2
-duplicate$ -- 81
-empty$ -- 230
-format.name$ -- 46
-if$ -- 619
++ -- 64
+- -- 20
+* -- 182
+:= -- 533
+add.period$ -- 13
+call.type$ -- 7
+change.case$ -- 30
+chr.to.int$ -- 5
+cite$ -- 4
+duplicate$ -- 140
+empty$ -- 340
+format.name$ -- 92
+if$ -- 868
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 59
-newline$ -- 17
-num.names$ -- 10
-pop$ -- 76
+missing$ -- 93
+newline$ -- 25
+num.names$ -- 20
+pop$ -- 119
 preamble$ -- 1
-purify$ -- 12
+purify$ -- 18
 quote$ -- 0
-skip$ -- 227
+skip$ -- 299
 stack$ -- 1
-substring$ -- 90
-swap$ -- 30
+substring$ -- 107
+swap$ -- 52
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 14
+while$ -- 25
 width$ -- 0
-write$ -- 38
+write$ -- 64
+(There was 1 warning)
