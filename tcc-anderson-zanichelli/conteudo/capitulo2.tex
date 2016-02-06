@@ -52,8 +52,7 @@ A \sigla{NBR ISO/IEC 27001}{NBR ISO/IEC 27001 - Tecnologia da informação - Té
 \end{table}
 
 \subsection{O uso de \normalfont\itshape tokens}
-O uso de senhas pode não ser o suficiente para garantir a segurança de alguns tipos de sistemas, como por exemplo o acesso a contas bancárias ou o acesso ao \sigla{SGDB}{Sistema de gerenciamento de banco de dados} de uma aplicação crítica.
-Assim, além do uso de senhas pode ser empregado o uso de \textit{tokens}.
+O uso de senhas pode não ser seguro o suficiente para garantir a autenticidade e confidencialidade do usuário em alguns tipos de sistemas, como por exemplo o acesso a contas bancárias ou o acesso ao \sigla{SGDB}{Sistema de gerenciamento de banco de dados} de uma aplicação crítica. Nesses sistemas é comum o uso de \textit{tokens}.
 
 \textit{Tokens} são pequenos dispositivos, do tamanho de um chaveiro, cujo nome técnico é \textit{Token} \sigla{OTP}{One Time Password}. Eles geram uma sequência numérica que será utilizada como uma senha mas por um pequeno espaço de tempo, por volta de 60 segundos, depois desse tempo essa sequência numérica perde a validade.
 
@@ -65,7 +64,7 @@ Uma das formas de ataque em sistemas de computação em redes utilizam \textit{s
 	\centering
 	\includegraphics[width=0.22\textwidth]{token.png}
 	\small
-	\caption[Exemplo de um dispositivo gerador de \textit{tokens}]{Exemplo de um dispositivo gerador de \textit{tokens}}
+	\caption[Dispositivo gerador de \textit{tokens}]{Dispositivo gerador de \textit{tokens}}
 	\label{fig:token}
 \end{figure}
 
@@ -75,7 +74,7 @@ Além dos dispositivos geradores de \textit{tokens} existem também aplicativos 
 	\centering
 	\includegraphics[width=0.46\textwidth]{authenticator.png}
 	\small
-	\caption[Exemplo de uma aplicação geradora de \textit{tokens}]{Exemplo de uma aplicação geradora de \textit{tokens}}
+	\caption[Aplicação geradora de \textit{tokens}]{Aplicação geradora de \textit{tokens}}
 	\label{fig:token}
 \end{figure}
 
@@ -100,8 +99,11 @@ O uso de autenticação por biometria ainda não oferece o custo benefício nece
 	\centering
 	\includegraphics[width=0.3\textwidth]{finger.png}
 	\small
-	\caption[Exemplo de um leitor biométrico de impressão digital]{Exemplo de um leitor biométrico de impressão digital}
+	\caption[Leitor biométrico de impressão digital]{Leitor biométrico de impressão digital}
 	\label{fig:finger}
 \end{figure}
 
-A Figura \ref{fig:finger} é o modelo de um leitor biométrico que pode ser encontrado em lojas virtuas com preços que variam em torno de \sigla{USD}{United States Dollar}20.00. Numa pesquisa por \textit{"iris recognition"}, no Ebay\footnote{http://www.ebay.com}, retornou aparelhos com valores de USD 1000.00
+A Figura \ref{fig:finger} apresenta um modelo de um leitor biométrico que pode ser encontrado em lojas virtuas com preços que variam em torno de \sigla{USD}{United States Dollar}20.00. Numa pesquisa por \textit{"iris recognition"}, no Ebay\footnote{http://www.ebay.com}, retornou aparelhos com valores por volta dos USD 1000.00
+
+Como esses aparelhos requerem investimentos, e na grande maioria dos casos os acessos aos sistemas acontecem de diversos pontos, o uso desses aparelhos se torna inviável.
+Dessa forma, alguns sistemas utilizam a combinação das técnicas do uso de senha e de \textit{tokens} para aumentar a segurança dos seus sistemas.
