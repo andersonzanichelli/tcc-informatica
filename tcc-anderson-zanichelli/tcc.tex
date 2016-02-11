@@ -24,6 +24,7 @@
 \usepackage{tikz}
 \def\checkmark{\tikz\fill[scale=0.5](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;}
 \graphicspath{{./figuras/}} % Diretório padrão de figuras.
+
 \input{pretextuais/capa} % Elementos da capa
 \begin{document}
     \pagestyle{empty}
@@ -46,14 +47,12 @@
     \input{conteudo/capitulo4}
     \input{conteudo/capitulo5}
     \input{conteudo/capitulo6}
-    \input{conteudo/capitulo7}
-    \input{conteudo/capitulo8}
     % Aqui começa a bibliografia da monografia
     % Apêndice e Anexos
     \apendice
     %\input{postextuais/apendice}
     \anexo
-    %\input{postextuais/anexo}
+    \input{postextuais/anexo}
     \bibliographystyle{abnt-alf}
     \bibliography{tcc}
 \end{document}
