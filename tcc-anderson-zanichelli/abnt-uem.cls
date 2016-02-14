@@ -104,12 +104,7 @@
 			\textbf{\normalsize\MakeUppercase{\ABNTinstituicaodata}}\\
 			\normalsize\MakeUppercase{\UEFSdepartamentodata}\par
 		\end{center}
-		
-		\vspace{3.5cm}	
-		\begin{center}
-			\textbf{\normalsize{Aluno: }{\ABNTautordata}}\par
-			\textbf{\normalsize{Orientadora: }{\ABNTorientadordata}}\par
-		\end{center}
+
 		\vspace{2.0cm}
 		\begin{center}
 			\normalsize\ABNTchapterfont\MakeUppercase{\ABNTtitulodata}\par
@@ -118,6 +113,13 @@
 				\vspace{0.3cm}\ABNTchapterfont\MakeUppercase{\UEFSsubtitulodata}\par
 			}
 		\end{center}
+		
+		\vspace{3.5cm}	
+		\begin{center}
+			\textbf{\normalsize{Aluno: }{\ABNTautordata}}\par
+			\textbf{\normalsize{Orientadora: }{\ABNTorientadordata}}\par
+		\end{center}
+		
 		\vspace{.5cm}
 		\begin{center}
 			\ABNTifnotempty{\UEFSniveldata}

@@ -1,0 +1,1225 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="ionicarchitecture.svg">
+  <defs
+     id="defs4">
+    <filter
+       id="filter3016"
+       inkscape:label="Noisy blur"
+       x="-0.25"
+       y="-0.25"
+       width="1.5"
+       height="1.5"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Small-scale roughening and blurring to edges and content"
+       color-interpolation-filters="sRGB">
+      <feMorphology
+         id="feMorphology3018"
+         radius="4"
+         in="SourceGraphic"
+         result="result0" />
+      <feGaussianBlur
+         id="feGaussianBlur3020"
+         in="result0"
+         stdDeviation="8"
+         result="result91" />
+      <feComposite
+         id="feComposite3022"
+         in2="result91"
+         operator="in"
+         in="SourceGraphic"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix3024" />
+      <feGaussianBlur
+         id="feGaussianBlur3026"
+         stdDeviation="5"
+         result="result1"
+         in="fbSourceGraphic" />
+      <feTurbulence
+         id="feTurbulence3028"
+         numOctaves="1"
+         seed="0"
+         type="fractalNoise"
+         baseFrequency="0.1"
+         result="result2" />
+      <feDisplacementMap
+         id="feDisplacementMap3030"
+         in2="result2"
+         scale="5"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         result="result3"
+         in="result1" />
+      <feComposite
+         id="feComposite3032"
+         in2="result3"
+         operator="atop" />
+    </filter>
+    <filter
+       id="filter3016-5"
+       inkscape:label="Noisy blur"
+       x="-0.25"
+       y="-0.25"
+       width="1.5"
+       height="1.5"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Small-scale roughening and blurring to edges and content"
+       color-interpolation-filters="sRGB">
+      <feMorphology
+         id="feMorphology3018-3"
+         radius="4"
+         in="SourceGraphic"
+         result="result0" />
+      <feGaussianBlur
+         id="feGaussianBlur3020-8"
+         in="result0"
+         stdDeviation="8"
+         result="result91" />
+      <feComposite
+         id="feComposite3022-3"
+         in2="result91"
+         operator="in"
+         in="SourceGraphic"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix3024-4" />
+      <feGaussianBlur
+         id="feGaussianBlur3026-7"
+         stdDeviation="5"
+         result="result1"
+         in="fbSourceGraphic" />
+      <feTurbulence
+         id="feTurbulence3028-1"
+         numOctaves="1"
+         seed="0"
+         type="fractalNoise"
+         baseFrequency="0.1"
+         result="result2" />
+      <feDisplacementMap
+         id="feDisplacementMap3030-9"
+         in2="result2"
+         scale="5"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         result="result3"
+         in="result1" />
+      <feComposite
+         id="feComposite3032-1"
+         in2="result3"
+         operator="atop" />
+    </filter>
+    <filter
+       id="filter3016-5-7"
+       inkscape:label="Noisy blur"
+       x="-0.25"
+       y="-0.25"
+       width="1.5"
+       height="1.5"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Small-scale roughening and blurring to edges and content"
+       color-interpolation-filters="sRGB">
+      <feMorphology
+         id="feMorphology3018-3-4"
+         radius="4"
+         in="SourceGraphic"
+         result="result0" />
+      <feGaussianBlur
+         id="feGaussianBlur3020-8-8"
+         in="result0"
+         stdDeviation="8"
+         result="result91" />
+      <feComposite
+         id="feComposite3022-3-4"
+         in2="result91"
+         operator="in"
+         in="SourceGraphic"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix3024-4-2" />
+      <feGaussianBlur
+         id="feGaussianBlur3026-7-1"
+         stdDeviation="5"
+         result="result1"
+         in="fbSourceGraphic" />
+      <feTurbulence
+         id="feTurbulence3028-1-9"
+         numOctaves="1"
+         seed="0"
+         type="fractalNoise"
+         baseFrequency="0.1"
+         result="result2" />
+      <feDisplacementMap
+         id="feDisplacementMap3030-9-8"
+         in2="result2"
+         scale="5"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         result="result3"
+         in="result1" />
+      <feComposite
+         id="feComposite3032-1-2"
+         in2="result3"
+         operator="atop" />
+    </filter>
+    <filter
+       id="filter3536"
+       inkscape:label="Noisy blur"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Small-scale roughening and blurring to edges and content"
+       x="-0.25"
+       width="1.5"
+       y="-0.25"
+       height="1.5"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur3538"
+         stdDeviation="5"
+         result="result1" />
+      <feTurbulence
+         id="feTurbulence3540"
+         numOctaves="1"
+         seed="0"
+         type="fractalNoise"
+         baseFrequency="0.1"
+         result="result2" />
+      <feDisplacementMap
+         id="feDisplacementMap3542"
+         in2="result2"
+         scale="5"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         result="result3"
+         in="result1" />
+      <feComposite
+         id="feComposite3544"
+         in2="result3"
+         operator="atop" />
+    </filter>
+    <filter
+       id="filter3564"
+       inkscape:label="Noisy blur"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Small-scale roughening and blurring to edges and content"
+       x="-0.25"
+       width="1.5"
+       y="-0.25"
+       height="1.5"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur3566"
+         stdDeviation="5"
+         result="result1" />
+      <feTurbulence
+         id="feTurbulence3568"
+         numOctaves="1"
+         seed="0"
+         type="fractalNoise"
+         baseFrequency="0.1"
+         result="result2" />
+      <feDisplacementMap
+         id="feDisplacementMap3570"
+         in2="result2"
+         scale="5"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         result="result3"
+         in="result1" />
+      <feComposite
+         id="feComposite3572"
+         in2="result3"
+         operator="atop" />
+    </filter>
+    <filter
+       id="filter3016-0"
+       inkscape:label="Noisy blur"
+       x="-0.25"
+       y="-0.25"
+       width="1.5"
+       height="1.5"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Small-scale roughening and blurring to edges and content"
+       color-interpolation-filters="sRGB">
+      <feMorphology
+         id="feMorphology3018-4"
+         radius="4"
+         in="SourceGraphic"
+         result="result0" />
+      <feGaussianBlur
+         id="feGaussianBlur3020-1"
+         in="result0"
+         stdDeviation="8"
+         result="result91" />
+      <feComposite
+         id="feComposite3022-2"
+         in2="result91"
+         operator="in"
+         in="SourceGraphic"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix3024-6" />
+      <feGaussianBlur
+         id="feGaussianBlur3026-2"
+         stdDeviation="5"
+         result="result1"
+         in="fbSourceGraphic" />
+      <feTurbulence
+         id="feTurbulence3028-5"
+         numOctaves="1"
+         seed="0"
+         type="fractalNoise"
+         baseFrequency="0.1"
+         result="result2" />
+      <feDisplacementMap
+         id="feDisplacementMap3030-1"
+         in2="result2"
+         scale="5"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         result="result3"
+         in="result1" />
+      <feComposite
+         id="feComposite3032-9"
+         in2="result3"
+         operator="atop" />
+    </filter>
+    <filter
+       id="filter3758"
+       inkscape:label="Noisy blur"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Small-scale roughening and blurring to edges and content"
+       x="-0.25"
+       width="1.5"
+       y="-0.25"
+       height="1.5"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur3760"
+         stdDeviation="5"
+         result="result1" />
+      <feTurbulence
+         id="feTurbulence3762"
+         numOctaves="1"
+         seed="0"
+         type="fractalNoise"
+         baseFrequency="0.1"
+         result="result2" />
+      <feDisplacementMap
+         id="feDisplacementMap3764"
+         in2="result2"
+         scale="5"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         result="result3"
+         in="result1" />
+      <feComposite
+         id="feComposite3766"
+         in2="result3"
+         operator="atop" />
+    </filter>
+    <filter
+       id="filter4871"
+       inkscape:label="Noisy blur"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Small-scale roughening and blurring to edges and content"
+       x="-0.25"
+       width="1.5"
+       y="-0.25"
+       height="1.5"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur4873"
+         stdDeviation="5"
+         result="result1" />
+      <feTurbulence
+         id="feTurbulence4875"
+         numOctaves="1"
+         seed="0"
+         type="fractalNoise"
+         baseFrequency="0.1"
+         result="result2" />
+      <feDisplacementMap
+         id="feDisplacementMap4877"
+         in2="result2"
+         scale="5"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         result="result3"
+         in="result1" />
+      <feComposite
+         id="feComposite4879"
+         in2="result3"
+         operator="atop" />
+    </filter>
+    <filter
+       id="filter4917"
+       inkscape:label="Noisy blur"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Small-scale roughening and blurring to edges and content"
+       x="-0.25"
+       width="1.5"
+       y="-0.25"
+       height="1.5"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur4919"
+         stdDeviation="5"
+         result="result1" />
+      <feTurbulence
+         id="feTurbulence4921"
+         numOctaves="1"
+         seed="0"
+         type="fractalNoise"
+         baseFrequency="0.1"
+         result="result2" />
+      <feDisplacementMap
+         id="feDisplacementMap4923"
+         in2="result2"
+         scale="5"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         result="result3"
+         in="result1" />
+      <feComposite
+         id="feComposite4925"
+         in2="result3"
+         operator="atop" />
+    </filter>
+    <filter
+       id="filter4951"
+       inkscape:label="Noisy blur"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Small-scale roughening and blurring to edges and content"
+       x="-0.25"
+       width="1.5"
+       y="-0.25"
+       height="1.5"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur4953"
+         stdDeviation="5"
+         result="result1" />
+      <feTurbulence
+         id="feTurbulence4955"
+         numOctaves="1"
+         seed="0"
+         type="fractalNoise"
+         baseFrequency="0.1"
+         result="result2" />
+      <feDisplacementMap
+         id="feDisplacementMap4957"
+         in2="result2"
+         scale="5"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         result="result3"
+         in="result1" />
+      <feComposite
+         id="feComposite4959"
+         in2="result3"
+         operator="atop" />
+    </filter>
+    <filter
+       id="filter4998"
+       inkscape:label="Noisy blur"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Small-scale roughening and blurring to edges and content"
+       x="-0.25"
+       width="1.5"
+       y="-0.25"
+       height="1.5"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur5000"
+         stdDeviation="5"
+         result="result1" />
+      <feTurbulence
+         id="feTurbulence5002"
+         numOctaves="1"
+         seed="0"
+         type="fractalNoise"
+         baseFrequency="0.1"
+         result="result2" />
+      <feDisplacementMap
+         id="feDisplacementMap5004"
+         in2="result2"
+         scale="5"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         result="result3"
+         in="result1" />
+      <feComposite
+         id="feComposite5006"
+         in2="result3"
+         operator="atop" />
+    </filter>
+    <filter
+       id="filter5026"
+       inkscape:label="Noisy blur"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Small-scale roughening and blurring to edges and content"
+       x="-0.25"
+       width="1.5"
+       y="-0.25"
+       height="1.5"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur5028"
+         stdDeviation="5"
+         result="result1" />
+      <feTurbulence
+         id="feTurbulence5030"
+         numOctaves="1"
+         seed="0"
+         type="fractalNoise"
+         baseFrequency="0.1"
+         result="result2" />
+      <feDisplacementMap
+         id="feDisplacementMap5032"
+         in2="result2"
+         scale="5"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         result="result3"
+         in="result1" />
+      <feComposite
+         id="feComposite5034"
+         in2="result3"
+         operator="atop" />
+    </filter>
+    <filter
+       id="filter5054"
+       inkscape:label="Noisy blur"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Small-scale roughening and blurring to edges and content"
+       x="-0.25"
+       width="1.5"
+       y="-0.25"
+       height="1.5"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur5056"
+         stdDeviation="5"
+         result="result1" />
+      <feTurbulence
+         id="feTurbulence5058"
+         numOctaves="1"
+         seed="0"
+         type="fractalNoise"
+         baseFrequency="0.1"
+         result="result2" />
+      <feDisplacementMap
+         id="feDisplacementMap5060"
+         in2="result2"
+         scale="5"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         result="result3"
+         in="result1" />
+      <feComposite
+         id="feComposite5062"
+         in2="result3"
+         operator="atop" />
+    </filter>
+    <filter
+       id="filter5327"
+       inkscape:label="Noisy blur"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Small-scale roughening and blurring to edges and content"
+       x="-0.25"
+       width="1.5"
+       y="-0.25"
+       height="1.5"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur5329"
+         stdDeviation="5"
+         result="result1" />
+      <feTurbulence
+         id="feTurbulence5331"
+         numOctaves="1"
+         seed="0"
+         type="fractalNoise"
+         baseFrequency="0.1"
+         result="result2" />
+      <feDisplacementMap
+         id="feDisplacementMap5333"
+         in2="result2"
+         scale="5"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         result="result3"
+         in="result1" />
+      <feComposite
+         id="feComposite5335"
+         in2="result3"
+         operator="atop" />
+    </filter>
+    <filter
+       id="filter5355"
+       inkscape:label="Noisy blur"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Small-scale roughening and blurring to edges and content"
+       x="-0.25"
+       width="1.5"
+       y="-0.25"
+       height="1.5"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur5357"
+         stdDeviation="5"
+         result="result1" />
+      <feTurbulence
+         id="feTurbulence5359"
+         numOctaves="1"
+         seed="0"
+         type="fractalNoise"
+         baseFrequency="0.1"
+         result="result2" />
+      <feDisplacementMap
+         id="feDisplacementMap5361"
+         in2="result2"
+         scale="5"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         result="result3"
+         in="result1" />
+      <feComposite
+         id="feComposite5363"
+         in2="result3"
+         operator="atop" />
+    </filter>
+    <filter
+       id="filter5383"
+       inkscape:label="Noisy blur"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Small-scale roughening and blurring to edges and content"
+       x="-0.25"
+       width="1.5"
+       y="-0.25"
+       height="1.5"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur5385"
+         stdDeviation="5"
+         result="result1" />
+      <feTurbulence
+         id="feTurbulence5387"
+         numOctaves="1"
+         seed="0"
+         type="fractalNoise"
+         baseFrequency="0.1"
+         result="result2" />
+      <feDisplacementMap
+         id="feDisplacementMap5389"
+         in2="result2"
+         scale="5"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         result="result3"
+         in="result1" />
+      <feComposite
+         id="feComposite5391"
+         in2="result3"
+         operator="atop" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="596.90838"
+     inkscape:cy="561.1444"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="740"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g5488"
+       inkscape:export-filename="/home/anderzanic/TCC/images/ionicarch.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         ry="57.270912"
+         y="134.72913"
+         x="-4.8774476"
+         height="589.89838"
+         width="1092.2654"
+         id="rect5431"
+         style="fill:#cccccc;fill-opacity:1;stroke:none" />
+      <g
+         transform="translate(0,12.121836)"
+         id="g3063">
+        <g
+           id="g3034"
+           transform="matrix(0.95152616,0,0,1,11.374135,0)">
+          <rect
+             ry="30.304577"
+             y="153.32642"
+             x="16.162441"
+             height="202.0305"
+             width="171.72594"
+             id="rect2996"
+             style="fill:#4d4d4d;fill-opacity:1;stroke:none;filter:url(#filter3016)" />
+          <rect
+             ry="30.304577"
+             y="141.1843"
+             x="3.0710669"
+             height="202.0305"
+             width="171.72594"
+             id="rect2996-8"
+             style="fill:#5f8dd3;fill-opacity:1;stroke:none" />
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Webdings;-inkscape-font-specification:Webdings"
+           x="31.651493"
+           y="192.36218"
+           id="text3038"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3040"
+             x="31.651493"
+             y="192.36218">HTML</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Webdings;-inkscape-font-specification:Webdings"
+           x="23.098759"
+           y="301.24664"
+           id="text3038-4"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3040-6"
+             x="23.098759"
+             y="301.24664"
+             style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">index.html</tspan></text>
+      </g>
+      <g
+         id="g3637">
+        <g
+           id="g3034-7"
+           transform="matrix(0.95152616,0,0,1,194.67659,12.121836)">
+          <rect
+             ry="30.304577"
+             y="153.32642"
+             x="16.162441"
+             height="202.0305"
+             width="171.72594"
+             id="rect2996-0"
+             style="fill:#4d4d4d;fill-opacity:1;stroke:none;filter:url(#filter3016-5)" />
+          <rect
+             ry="30.304577"
+             y="141.1843"
+             x="3.0710669"
+             height="202.0305"
+             width="171.72594"
+             id="rect2996-8-6"
+             style="fill:#5f8dd3;fill-opacity:1;stroke:none" />
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Webdings;-inkscape-font-specification:Webdings"
+           x="236.77036"
+           y="204.48402"
+           id="text3038-1"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3040-7"
+             x="236.77036"
+             y="204.48402">CSS</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Webdings;-inkscape-font-specification:Webdings"
+           x="218.0809"
+           y="313.36847"
+           id="text3038-4-2"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3040-6-4"
+             x="218.0809"
+             y="313.36847"
+             style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">style.css</tspan></text>
+      </g>
+      <g
+         transform="translate(-68,0)"
+         id="g3646">
+        <rect
+           style="fill:#666666;fill-opacity:1;stroke:none;filter:url(#filter3564)"
+           id="rect2996-8-6-0-3"
+           width="679.81647"
+           height="202.0305"
+           x="465.23462"
+           y="167.34694"
+           ry="36.36549" />
+        <rect
+           style="fill:#5f8dd3;fill-opacity:1;stroke:none"
+           id="rect2996-8-6-0"
+           width="679.81647"
+           height="202.0305"
+           x="450.49213"
+           y="156.34767"
+           ry="36.36549" />
+        <rect
+           style="fill:#4d4d4d;fill-opacity:1;stroke:none;filter:url(#filter3536)"
+           id="rect2996-8-6-0-5-9"
+           width="613.10437"
+           height="91.480812"
+           x="490.30499"
+           y="222.05035"
+           ry="20.203053" />
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Webdings;-inkscape-font-specification:Webdings"
+           x="679.99994"
+           y="198.92273"
+           id="text3038-1-1"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3040-7-0"
+             x="679.99994"
+             y="198.92273">Javascript</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Webdings;-inkscape-font-specification:Webdings"
+           x="717.42383"
+           y="343.15857"
+           id="text3038-4-2-5"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3040-6-4-1"
+             x="717.42383"
+             y="343.15857"
+             style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">cordova.js</tspan></text>
+        <rect
+           style="fill:#2c5aa0;fill-opacity:1;stroke:none"
+           id="rect2996-8-6-0-5"
+           width="613.10437"
+           height="91.480812"
+           x="483.84814"
+           y="216.48979"
+           ry="20.203053" />
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Webdings;-inkscape-font-specification:Webdings"
+           x="629.75531"
+           y="251.96877"
+           id="text3038-1-1-7"
+           sodipodi:linespacing="125%"><tspan
+             style="font-size:34px;fill:#ffffff"
+             sodipodi:role="line"
+             id="tspan3040-7-0-9"
+             x="629.75531"
+             y="251.96877">Ionic Framework</tspan></text>
+        <g
+           transform="translate(274.1691,12.121836)"
+           id="g3466">
+          <text
+             sodipodi:linespacing="125%"
+             id="text3038-4-2-7"
+             y="274.7728"
+             x="242.63052"
+             style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Webdings;-inkscape-font-specification:Webdings"
+             xml:space="preserve"><tspan
+               style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
+               y="274.7728"
+               x="242.63052"
+               id="tspan3040-6-4-6"
+               sodipodi:role="line">angular.js</tspan></text>
+          <text
+             sodipodi:linespacing="125%"
+             id="text3038-4-2-7-0"
+             y="276.79309"
+             x="453.30548"
+             style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Webdings;-inkscape-font-specification:Webdings"
+             xml:space="preserve"><tspan
+               style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
+               y="276.79309"
+               x="453.30548"
+               id="tspan3040-6-4-6-1"
+               sodipodi:role="line">ionic.js</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Webdings;-inkscape-font-specification:Webdings"
+             x="597.6601"
+             y="278.59006"
+             id="text3038-4-2-7-0-2"
+             sodipodi:linespacing="125%"><tspan
+               sodipodi:role="line"
+               id="tspan3040-6-4-6-1-2"
+               x="597.6601"
+               y="278.59006"
+               style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">ng-cordova.js</tspan></text>
+        </g>
+      </g>
+      <g
+         id="g5412">
+        <rect
+           style="fill:#4d4d4d;fill-opacity:1;stroke:none;filter:url(#filter5383)"
+           id="rect2996-8-2-5-9-1-3"
+           width="389.67599"
+           height="82.832504"
+           x="680.0556"
+           y="621.49408"
+           ry="26.263966" />
+        <g
+           id="g5407">
+          <rect
+             ry="26.263966"
+             y="613.84076"
+             x="668.84235"
+             height="82.832504"
+             width="389.67599"
+             id="rect2996-8-2-5-9-1"
+             style="fill:#2c5aa0;fill-opacity:1;stroke:none" />
+          <text
+             xml:space="preserve"
+             style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Webdings;-inkscape-font-specification:Webdings"
+             x="686.47217"
+             y="674.16913"
+             id="text3038-1-1-1-7-4"
+             sodipodi:linespacing="125%"><tspan
+               style="fill:#ffffff"
+               sodipodi:role="line"
+               id="tspan3040-7-0-94-2-4"
+               x="686.47217"
+               y="674.16913">Windows Phone</tspan></text>
+        </g>
+        <g
+           id="g5401">
+          <rect
+             ry="28.284271"
+             y="623.43317"
+             x="390.04034"
+             height="82.832504"
+             width="270.47797"
+             id="rect2996-8-2-5-9-1-9-6"
+             style="fill:#4d4d4d;fill-opacity:1;stroke:none;filter:url(#filter5355)" />
+          <rect
+             ry="28.284271"
+             y="613.84076"
+             x="378.42352"
+             height="82.832504"
+             width="270.47797"
+             id="rect2996-8-2-5-9-1-9"
+             style="fill:#999999;fill-opacity:1;stroke:none" />
+          <text
+             sodipodi:linespacing="125%"
+             id="text3038-1-1-1-7-8-3"
+             y="670.16913"
+             x="475.17621"
+             style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Webdings;-inkscape-font-specification:Webdings"
+             xml:space="preserve"><tspan
+               y="670.16913"
+               x="475.17621"
+               id="tspan3040-7-0-94-2-5-7"
+               sodipodi:role="line"
+               style="fill:#ffffff">iOS</tspan></text>
+        </g>
+        <g
+           id="g5393">
+          <rect
+             ry="24.24366"
+             y="623.47375"
+             x="30.405735"
+             height="82.832504"
+             width="339.16833"
+             id="rect2996-8-2-5-9-1-9-7-8"
+             style="fill:#4d4d4d;fill-opacity:1;stroke:none;filter:url(#filter5327)" />
+          <rect
+             ry="24.24366"
+             y="613.84076"
+             x="19.314352"
+             height="82.832504"
+             width="339.16833"
+             id="rect2996-8-2-5-9-1-9-7"
+             style="fill:#5aa02c;fill-opacity:1;stroke:none" />
+          <text
+             sodipodi:linespacing="125%"
+             id="text3038-1-1-1-7-9"
+             y="670.16913"
+             x="101.59383"
+             style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Webdings;-inkscape-font-specification:Webdings"
+             xml:space="preserve"><tspan
+               y="670.16913"
+               x="101.59383"
+               id="tspan3040-7-0-94-2-03"
+               sodipodi:role="line"
+               style="fill:#ffffff">Android</tspan></text>
+        </g>
+      </g>
+      <g
+         id="g5064">
+        <rect
+           style="fill:#666666;fill-opacity:1;stroke:none;filter:url(#filter4871)"
+           id="rect2996-8-2-5-4"
+           width="1040.2142"
+           height="139.40105"
+           x="33.740749"
+           y="499.80875"
+           ry="26.223963"
+           transform="matrix(1,0,0,0.79486293,2,95.95945)" />
+        <rect
+           style="fill:#ff9955;fill-opacity:1;stroke:none"
+           id="rect2996-8-2-5"
+           width="1040.2142"
+           height="103.03555"
+           x="19.375254"
+           y="487.0575"
+           ry="19.382929" />
+        <rect
+           style="fill:#4d4d4d;fill-opacity:1;stroke:none;filter:url(#filter4917)"
+           id="rect2996-8-2-5-9-3-0"
+           width="149.25969"
+           height="66.670067"
+           x="46.62907"
+           y="510.15393"
+           ry="16.162441" />
+        <rect
+           ry="16.162441"
+           y="512.33667"
+           x="219.28394"
+           height="66.670067"
+           width="116.9348"
+           id="rect2996-8-2-5-9-3-9-6"
+           style="fill:#4d4d4d;fill-opacity:1;stroke:none;filter:url(#filter4951)" />
+        <rect
+           style="fill:#4d4d4d;fill-opacity:1;stroke:none;filter:url(#filter4998)"
+           id="rect2996-8-2-5-9-3-4-6"
+           width="270.478"
+           height="66.670067"
+           x="359.63422"
+           y="513.38745"
+           ry="16.162441" />
+        <rect
+           style="fill:#4d4d4d;fill-opacity:1;stroke:none;filter:url(#filter5026)"
+           id="rect2996-8-2-5-9-3-4-0-1"
+           width="226.03128"
+           height="66.670067"
+           x="651.48706"
+           y="512.33667"
+           ry="16.162441" />
+        <rect
+           ry="16.162441"
+           y="511.30621"
+           x="901.15723"
+           height="66.670067"
+           width="149.25969"
+           id="rect2996-8-2-5-9-3-4-0-4-7"
+           style="fill:#4d4d4d;fill-opacity:1;stroke:none;filter:url(#filter5054)" />
+        <g
+           id="g4829"
+           transform="translate(4.2334249,4)">
+          <g
+             transform="translate(-30,0)"
+             id="g4684">
+            <rect
+               style="fill:#ff6600;fill-opacity:1;stroke:none"
+               id="rect2996-8-2-5-9-3"
+               width="149.25969"
+               height="66.670067"
+               x="64.832222"
+               y="496.37732"
+               ry="16.162441" />
+            <text
+               xml:space="preserve"
+               style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Webdings;-inkscape-font-specification:Webdings"
+               x="82.383942"
+               y="541.16547"
+               id="text3038-4-2-7-9"
+               sodipodi:linespacing="125%"><tspan
+                 sodipodi:role="line"
+                 id="tspan3040-6-4-6-4"
+                 x="82.383942"
+                 y="541.16547"
+                 style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">Camera</tspan></text>
+          </g>
+          <g
+             id="g4684-6"
+             transform="translate(169.31475,0)">
+            <g
+               transform="translate(-44,0)"
+               id="g4716">
+              <rect
+                 ry="16.162441"
+                 y="498.37732"
+                 x="80.994667"
+                 height="66.670067"
+                 width="116.9348"
+                 id="rect2996-8-2-5-9-3-9"
+                 style="fill:#ff6600;fill-opacity:1;stroke:none" />
+              <text
+                 sodipodi:linespacing="125%"
+                 id="text3038-4-2-7-9-8"
+                 y="543.16547"
+                 x="113.00894"
+                 style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Webdings;-inkscape-font-specification:Webdings"
+                 xml:space="preserve"><tspan
+                   style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
+                   y="543.16547"
+                   x="113.00894"
+                   id="tspan3040-6-4-6-4-7"
+                   sodipodi:role="line">File</tspan></text>
+            </g>
+          </g>
+          <g
+             transform="translate(-8.2131653,0)"
+             id="g4751">
+            <rect
+               style="fill:#ff6600;fill-opacity:1;stroke:none"
+               id="rect2996-8-2-5-9-3-4"
+               width="270.478"
+               height="66.670067"
+               x="353.67487"
+               y="498.37732"
+               ry="16.162441" />
+            <text
+               xml:space="preserve"
+               style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Webdings;-inkscape-font-specification:Webdings"
+               x="379.70291"
+               y="543.16547"
+               id="text3038-4-2-7-9-9"
+               sodipodi:linespacing="125%"><tspan
+                 sodipodi:role="line"
+                 id="tspan3040-6-4-6-4-0"
+                 x="379.70291"
+                 y="543.16547"
+                 style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">Geolocalization</tspan></text>
+          </g>
+          <g
+             id="g4783"
+             transform="translate(269.90741,0)">
+            <rect
+               style="fill:#ff6600;fill-opacity:1;stroke:none"
+               id="rect2996-8-2-5-9-3-4-0"
+               width="226.03128"
+               height="66.670067"
+               x="368.24979"
+               y="498.37732"
+               ry="16.162441" />
+            <text
+               xml:space="preserve"
+               style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Webdings;-inkscape-font-specification:Webdings"
+               x="379.70291"
+               y="543.16547"
+               id="text3038-4-2-7-9-9-7"
+               sodipodi:linespacing="125%"><tspan
+                 sodipodi:role="line"
+                 id="tspan3040-6-4-6-4-0-6"
+                 x="379.70291"
+                 y="543.16547"
+                 style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">Device Motion</tspan></text>
+          </g>
+          <g
+             id="g4783-8"
+             transform="translate(411.77039,0)">
+            <g
+               id="g4815"
+               transform="translate(68,0)">
+              <rect
+                 ry="16.162441"
+                 y="498.37732"
+                 x="406.63559"
+                 height="66.670067"
+                 width="149.25969"
+                 id="rect2996-8-2-5-9-3-4-0-4"
+                 style="fill:#ff6600;fill-opacity:1;stroke:none" />
+              <text
+                 sodipodi:linespacing="125%"
+                 id="text3038-4-2-7-9-9-7-8"
+                 y="543.16547"
+                 x="417.9295"
+                 style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Webdings;-inkscape-font-specification:Webdings"
+                 xml:space="preserve"><tspan
+                   style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
+                   y="543.16547"
+                   x="417.9295"
+                   id="tspan3040-6-4-6-4-0-6-2"
+                   sodipodi:role="line">Contacts</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         transform="translate(0,-2)"
+         id="g3786">
+        <rect
+           style="fill:#666666;fill-opacity:1;stroke:none;filter:url(#filter3758)"
+           id="rect2996-8-2-4"
+           width="1040.2142"
+           height="82.832504"
+           x="33.192513"
+           y="394.77319"
+           ry="22.223356" />
+        <rect
+           style="fill:#c83737;fill-opacity:1;stroke:none"
+           id="rect2996-8-2"
+           width="1040.2142"
+           height="82.832504"
+           x="18.979446"
+           y="381.82394"
+           ry="22.223356" />
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Webdings;-inkscape-font-specification:Webdings"
+           x="357.651"
+           y="438.15231"
+           id="text3038-3"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3040-0"
+             x="357.651"
+             y="438.15231">Apache Cordova</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
