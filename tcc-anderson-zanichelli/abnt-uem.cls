@@ -95,8 +95,12 @@
 {
 	\begin{titlepage}
 	    \begin{figure}[ht]
-		  \centering
-		  \includegraphics[width=0.08\linewidth, inner]{uem.png}
+		  %\centering
+		  \center
+  		  \subfigure{\includegraphics[width=0.08\linewidth, inner]{uem.png}}
+          \qquad
+  		  \subfigure{\includegraphics[width=0.12\linewidth, right]{din.png}}
+		  %\includegraphics[width=0.08\linewidth, inner]{uem.png}
 		  %\includegraphics[width=0.12\linewidth, right]{din.png}
 		\end{figure}\vspace{-1cm}
 		
