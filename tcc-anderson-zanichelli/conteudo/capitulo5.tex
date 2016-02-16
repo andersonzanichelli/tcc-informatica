@@ -1,6 +1,6 @@
 %---------- Quinto Capitulo ----------
 \chapter{Desenvolvimento}\label{cha:desenvolvimento}
-Este trabalho de conclusão de curso necessitou que fosse implementado uma aplicação servidora, o \textit{Broker}, que gerencia a escolha das aplicações que melhor atendem as configurações definidas pelo usuário; a aplicação para dispositivo móvel, onde o usuário realiza as configurações que deseja para cada tipo de serviço e que também consome esses serviços; e também alguns simuladores de provedores de serviços.
+Este trabalho de conclusão de curso necessitou que fosse implementado uma aplicação servidora, o \textit{Broker}, que gerencia a escolha das aplicações que melhor atendem as configurações definidas pelo usuário; a aplicação para dispositivo móvel, onde o usuário realiza as configurações que deseja para cada tipo de serviço e que também consome esses serviços; e também alguns simuladores de provedores de serviço. Para armazenamento de dados, foi utilizado um banco de dados na nuvem. A Figura \ref{fig:arquitetura} mostra a organização da arquitetura do projeto.
 
 \begin{figure}[!htb]
   \centering
@@ -20,21 +20,21 @@ Devido a essa característica de oferecer um serviço genérico, o usuário deve
 Vamos utilizar como exemplo uma consulta ao serviço de metereologia, então o usuário:
 \begin{footnotesize}
   \begin{enumerate}
-  \item abre o navegador de internet;
-  \item abre um site de busca;
-  \item procura pela palavra metereologia;
-  \item escolhe um dos serviços na lista;
-  \item tenta usar o serviço, se não conseguir volta ao passo anterior;
-  \item se necessário, cria uma conta e autentica-se no serviço;
-  \item aplica os filtros necessários;
-  \item obtém as informações.
+  \item Abre o navegador de internet;
+  \item Abre um site de busca;
+  \item Procura pela palavra metereologia;
+  \item Escolhe um dos serviços na lista;
+  \item Tenta usar o serviço, se não conseguir volta ao passo anterior;
+  \item Se necessário, cria uma conta e autentica-se no serviço;
+  \item Aplica os filtros necessários;
+  \item Obtém as informações.
   \end{enumerate}
 \end{footnotesize}
 
 Dependendo do tipo de serviço, esses passos serão sempre repetidos, principalmente o passo de autenticação, e as informações do usuário vão estar sempre expostas numa rede sem fio onde qualquer pessoa mal intensionada, com ferramentas adequadas, poderá capturá-las. E é esse tipo de problema que queremos resolver.
 
 \subsection{Implementação de um serviço como prova de conceito}
-Como as implementações dos serviços não fazem parte do escopo deste trabalho, foram implementados apenas serviços incompletos que forjam o funcionamento de um serviço real. No caso, foram implementados três serviços que oferecem dados metereológicos falsos, sendo que em um deles é necessário que o usuário tenha sido previamente cadastrado, assim para obter as informações do serviço, precisará realizar a autenticação.
+Como as implementações dos serviços não fazem parte do escopo deste trabalho, foram implementados apenas serviços incompletos que simulam o funcionamento de um serviço real. No caso, foram implementados três serviços que oferecem dados metereológicos falsos, sendo que em um deles é necessário que o usuário tenha sido previamente cadastrado, assim para obter as informações do serviço, precisará realizar a autenticação.
 
 Esses serviços foram implementados como \textit{Web Services} \sigla{REST}{Representational State Transfer} (\textit{Representational State Transfer}), assim precisamos apenas realizar uma chamada à interface adequada para obter a resposta.
 
@@ -157,7 +157,7 @@ A implementação do aplicativo para dispositivo móvel utilizou o Ionic \textit
 
 O Ionic \textit{Framework} foi desenvolvido sobre outro \textit{framework}, o Apache Cordova, o que idealmente permite que a aplicação desenvolvida possa ser executada em todas as plataformas de dispositivo móvel à qual o Apache Cordova oferece suporte.
 
-Abaixo é apresentada a figura \ref{fig:ionicarch} que demonstra a organização da arquitetura do \textit{framework}. Essa figura é meramente ilustrativa, pois nas últimas camadas temos um número bem maior de funcionalidades nos dispositivos, assim como um número maior de sistemas operacionais alvos do Apache Cordova.
+Abaixo é apresentada a Figura \ref{fig:ionicarch} que mostra a organização da arquitetura do \textit{framework}. Essa figura é meramente ilustrativa, pois nas últimas camadas temos um número bem maior de funcionalidades nos dispositivos, assim como um número maior de sistemas operacionais alvos do Apache Cordova.
 
 \begin{figure}[!htb]
   \centering
@@ -245,7 +245,7 @@ Nessa aba são exibidos apenas os serviços que tiveram as preferências configu
 \subsection{Angular.js}
 Angular.js foi desenvolvido pelo Google. É um \textit{framework} para desenvolvimento de aplicações web \textit{Single Page Applications}, onde todas as páginas da aplicação são desenvolvidas como \textit{templates} e são injetadas na página principal quando requisitadas.
 
-Uma característica muito importante do Angular.js é que ele extende o vocabulário padrão do HTML, permitindo que sejam desenvolvidos sistemas com um código muito mais expressivo no \textit{front-end}.
+Uma característica muito importante do Angular.js é que ele estende o vocabulário padrão do HTML, permitindo que sejam desenvolvidos sistemas com um código muito mais expressivo no \textit{front-end}.
 
 Como por exemplo o uso de uma \textit{tag} HTML como: 
 \begin{footnotesize}
@@ -266,7 +266,7 @@ Como por exemplo o uso de uma \textit{tag} HTML como:
   \end{verbatim}
 \end{footnotesize}
 
-Além desse ganho na expressividade, a modularização e reuso de código acontece efetivamente, o que diminui o tempo de desenvolvimento e aumenta a qualidade das aplicações.
+Além desse ganho na expressividade, a modularização e reúso de código acontece efetivamente, o que diminui o tempo de desenvolvimento e aumenta a qualidade das aplicações.
 
 Outro recurso muito interessante é o \textit{Two-Way Data Binding}, que permite a sincronização automática dos dados da \textit{view} com o modelo sem a manipulação direta do DOM pelo desenvolvedor.
 
@@ -280,7 +280,7 @@ Outro recurso muito interessante é o \textit{Two-Way Data Binding}, que permite
 \subsection{Construção dinâmica de formulário}
 Um dos desafios enfrentados durante a implementação da aplicação para o dispositivo móvel foi a construção do formulário que exibe as configurações das preferências do usuário para cada serviço. Como cada serviço apresenta um determinado conjunto de atributos, iria ser necessário a implementação de uma \textit{template} para cada tipo de serviço, isso iria aumentar a complexidade de atualizações e manutenções de código.
 
-Para evitar esses problemas e outros que poderiam surgir, como por exemplo: uma mudança nos atributos do serviço, foi desenvolvido um componente, que constroe o formulário de configuração de preferências de acordo com parâmetros enviados pelo \textit{Broker}.
+Para evitar esses problemas e outros que poderiam surgir, como por exemplo: uma mudança nos atributos do serviço, foi desenvolvido um componente, que constrói o formulário de configuração de preferências de acordo com parâmetros enviados pelo \textit{Broker}.
 
 Por exemplo, podemos enviar essas configurações abaixo ao dispositivo móvel e ele produzirá um formulário como a Figura \ref{fig:geracaoauto}.
 \begin{footnotesize}
@@ -306,7 +306,7 @@ Por exemplo, podemos enviar essas configurações abaixo ao dispositivo móvel e
 
 %----------------- Broker -----------------
 \section{O \normalfont\itshape Broker}
-O \textit{Broker} foi implementado como um \textit{Web Services} REST que expôe as interfaces necessárias para a aplicação cliente instalada no dispositivo móvel.
+O \textit{Broker} foi implementado como um \textit{Web Services} REST que expõe as interfaces necessárias para a aplicação cliente instalada no dispositivo móvel.
 \begin{citacao}
 O estilo REST é uma abstração dos elementos arquitectônicos dentro de um sistema hipermídia distribuído. REST ignora os detalhes da implementação do componente e da sintaxe do protocolo, a fim de se concentrar nos papéis dos componentes, as restrições sobre a sua interação com outros componentes, e sua interpretação de dados significativos. Ela abrange as restrições fundamentais sobre os componentes, conectores e dados que definem a base da arquitetura Web e, portanto, a essência do seu comportamento como um aplicativo baseado na rede. \cite{fielding2000architectural}
 \end{citacao}

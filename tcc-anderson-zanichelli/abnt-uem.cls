@@ -82,10 +82,10 @@
 \providecommand{\UEFStitledata}{}
 \renewcommand{\title}[1]{\renewcommand{\UEFStitledata}{#1}}
 
-\providecommand{\UEFSpalavraschavedata}{Rede de computadores, segurança, dispositivos móveis}
+\providecommand{\UEFSpalavraschavedata}{Rede de computadores, segurança, dispositivos móveis, autenticação}
 \newcommand{\palavraschave}[1]{\renewcommand{\UEFSpalavraschavedata}{#1}}
 
-\providecommand{\UEFSkeywordsdata}{Computer network, security, mobile devices}
+\providecommand{\UEFSkeywordsdata}{Computer network, security, mobile devices, authentication}
 \newcommand{\keywords}[1]{\renewcommand{\UEFSkeywordsdata}{#1}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
