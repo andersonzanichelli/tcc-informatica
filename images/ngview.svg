@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="ngview.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="252.82963"
+     inkscape:cy="838.1955"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="740"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g3902"
+       inkscape:export-filename="/home/anderzanic/TCC/images/defesa/ngview.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <text
+         sodipodi:linespacing="125%"
+         id="text2985"
+         y="173.52946"
+         x="36.36549"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Webdings;-inkscape-font-specification:Webdings"
+         xml:space="preserve"><tspan
+           y="173.52946"
+           x="36.36549"
+           id="tspan2987"
+           sodipodi:role="line">&lt;<tspan
+   id="tspan2999"
+   style="fill:#008000">html</tspan>&gt;</tspan><tspan
+           id="tspan2991"
+           y="223.52946"
+           x="36.36549"
+           sodipodi:role="line">  &lt;<tspan
+   id="tspan3001"
+   style="fill:#008000">head</tspan>&gt;&lt;/<tspan
+   id="tspan3009"
+   style="fill:#008000">head</tspan>&gt;</tspan><tspan
+           id="tspan2993"
+           y="273.52948"
+           x="36.36549"
+           sodipodi:role="line">  &lt;<tspan
+   id="tspan3003"
+   style="fill:#008000">body</tspan><tspan
+   id="tspan3011"
+   style="fill:#800080"> ng-app</tspan>=<tspan
+   id="tspan3017"
+   style="fill:#0000ff">&quot;myapp&quot;</tspan>&gt;</tspan><tspan
+           id="tspan2997"
+           y="323.52945"
+           x="36.36549"
+           sodipodi:role="line">    &lt;<tspan
+   id="tspan3019"
+   style="fill:#008000">ng</tspan>-<tspan
+   id="tspan3021"
+   style="fill:#800080">view</tspan>/&gt;</tspan><tspan
+           id="tspan2995"
+           y="373.52945"
+           x="36.36549"
+           sodipodi:role="line">  &lt;/<tspan
+   id="tspan3005"
+   style="fill:#008000">body</tspan>&gt;</tspan><tspan
+           id="tspan2989"
+           y="423.52945"
+           x="36.36549"
+           sodipodi:role="line">&lt;/<tspan
+   id="tspan3007"
+   style="fill:#008000">html</tspan>&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3023"
+         y="209.87465"
+         x="879.81744"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Webdings;-inkscape-font-specification:Webdings"
+         xml:space="preserve"><tspan
+           y="209.87465"
+           x="879.81744"
+           id="tspan3025"
+           sodipodi:role="line">&lt;sign-up/&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3023-0"
+         y="319.74854"
+         x="879.81744"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Webdings;-inkscape-font-specification:Webdings"
+         xml:space="preserve"><tspan
+           y="319.74854"
+           x="879.81744"
+           id="tspan3025-8"
+           sodipodi:role="line">&lt;log-in/&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3023-02"
+         y="442.98712"
+         x="879.81744"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Webdings;-inkscape-font-specification:Webdings"
+         xml:space="preserve"><tspan
+           y="442.98712"
+           x="879.81744"
+           id="tspan3025-0"
+           sodipodi:role="line">&lt;products/&gt;</tspan></text>
+      <g
+         transform="matrix(1.2077639,0,0,1,-182.83817,0)"
+         id="g3896">
+        <path
+           sodipodi:type="star"
+           style="fill:#ff0000;fill-opacity:1;stroke:none"
+           id="path3057"
+           sodipodi:sides="3"
+           sodipodi:cx="454.56866"
+           sodipodi:cy="494.75797"
+           sodipodi:r1="49.528389"
+           sodipodi:r2="24.764194"
+           sodipodi:arg1="0.20539539"
+           sodipodi:arg2="1.2525929"
+           inkscape:flatsided="false"
+           inkscape:rounded="0"
+           inkscape:randomized="0"
+           d="m 503.05599,504.85949 -40.73958,13.41948 -40.73958,13.41949 8.74817,-41.99126 8.74818,-41.99125 31.9914,28.57177 z"
+           inkscape:transform-center-x="6.06045"
+           inkscape:transform-center-y="-0.38326135"
+           transform="matrix(0.3554332,0.37473948,-0.37473948,0.3554332,521.02477,-30.756954)" />
+        <path
+           style="fill:none;stroke:#ff0000;stroke-width:7.19999981;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 502.85714,315.79075 c 161.10683,8.0876 275.19954,-44.24983 372.85715,-120"
+           id="path3063"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#ff0000;stroke-width:7.19999981;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 501.57143,317.91669 c 161.10683,-8.0876 275.19954,44.24983 372.85715,120"
+           id="path3063-0"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#ff0000;stroke-width:7.19999981;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 497.85714,317.63099 c 148.24969,-0.94474 188.05668,-1.46446 378.57144,-7.14287"
+           id="path3063-0-4"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+      </g>
+    </g>
+  </g>
+</svg>
